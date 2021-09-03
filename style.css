@@ -9,3 +9,17 @@
     display: table;
     clear: both;
 }
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+.debug .site_header {
+    background-color: blueviolet;
+    height: 150px;
+}
+
+.site_header {
+    margin-top: 20px;
+}
