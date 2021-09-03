@@ -20,7 +20,7 @@ body {
 }
 
 .site_header {
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: blueviolet;
 }
 
@@ -29,6 +29,44 @@ body {
 }
 
 .immagine {
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: lightcoral;
+}
+
+.debug .container {
+    height: 700px;
+}
+
+.debug .head {
+    height: 85px;
+}
+
+.head {
+    background-color: violet;
+}
+
+.container {
+    margin-top: 40px;
+    background-color: lightgreen;
+}
+
+.col {
+    float: left;
+    height: 530px;
+    background-color: violet;
+    margin-top: 40px;
+}
+
+.sx {
+    width: 23%;
+    margin-right: 3%;
+}
+
+.md {
+    width: 48%;
+    margin-right: 3%;
+}
+
+.dx {
+    width: 23%;
 }
