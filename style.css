@@ -15,26 +15,36 @@ body {
     margin: auto;
 }
 
+.debug .site_header, .immagine, .container, .col {
+    margin-top: 20px;
+}
+
+/* Header Style */
+
 .debug .site_header {
     height: 150px;
 }
 
 .site_header {
-    margin-top: 40px;
     background-color: blueviolet;
 }
+
+/* Main Style */
 
 .debug .immagine {
     height: 500px;
 }
 
 .immagine {
-    margin-top: 40px;
     background-color: lightcoral;
 }
 
 .debug .container {
-    height: 700px;
+    height: 660px;
+}
+
+.container {
+    background-color: lightgreen;
 }
 
 .debug .head {
@@ -45,28 +55,37 @@ body {
     background-color: violet;
 }
 
-.container {
-    margin-top: 40px;
-    background-color: lightgreen;
+.debug .col {
+    height: 530px;
 }
 
 .col {
     float: left;
-    height: 530px;
     background-color: violet;
-    margin-top: 40px;
 }
 
 .sx {
     width: 23%;
-    margin-right: 3%;
+    margin-right: 1%;
 }
 
 .md {
-    width: 48%;
-    margin-right: 3%;
+    width: 52%;
+    margin-right: 1%;
 }
 
 .dx {
     width: 23%;
+}
+
+/* Footer Style */
+
+.debug .site_footer {
+    height: 60px;
+}
+
+.site_footer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: lightseagreen;
 }
