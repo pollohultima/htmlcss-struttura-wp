@@ -16,10 +16,19 @@ body {
 }
 
 .debug .site_header {
-    background-color: blueviolet;
     height: 150px;
 }
 
 .site_header {
     margin-top: 20px;
+    background-color: blueviolet;
+}
+
+.debug .immagine {
+    height: 500px;
+}
+
+.immagine {
+    margin-top: 20px;
+    background-color: lightcoral;
 }
