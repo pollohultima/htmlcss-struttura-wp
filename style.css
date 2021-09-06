@@ -23,45 +23,41 @@ body {
 
 .debug .site_header {
     height: 150px;
-}
-
-.site_header {
     background-color: blueviolet;
 }
+
+.site_header {}
 
 /* Main Style */
 
 .debug .immagine {
     height: 500px;
-}
-
-.immagine {
     background-color: lightcoral;
 }
 
-.debug .container {
-    height: 660px;
-}
+.immagine {}
 
-.container {
+.debug .container {
     background-color: lightgreen;
 }
 
+.container {}
+
 .debug .head {
     height: 85px;
-}
-
-.head {
     background-color: violet;
 }
 
+.head {}
+
 .debug .col {
     height: 530px;
+    background-color: violet;
 }
 
 .col {
     float: left;
-    background-color: violet;
+    margin-bottom: 1rem;
 }
 
 .sx {
@@ -82,10 +78,10 @@ body {
 
 .debug .site_footer {
     height: 60px;
+    background-color: lightseagreen;
 }
 
 .site_footer {
     margin-top: 10px;
     margin-bottom: 20px;
-    background-color: lightseagreen;
 }
